@@ -2,7 +2,22 @@
 
 A comprehensive **Retrieval-Augmented Generation (RAG)** system that provides accurate medical information using advanced AI and vector search technology. This project combines large language models with efficient retrieval mechanisms to answer medical questions and support healthcare decision-making.
 
-## 📊 Key Metrics
+## � Table of Contents
+1. [Key Metrics](#-key-metrics)
+2. [Problem Description](#-problem-description)
+3. [Solution Impact](#-solution-impact)
+4. [Features](#-features-developed)
+5. [System Architecture](#-system-architecture)
+6. [Vector Space Visualization](#-vector-space-visualization)
+7. [Technology Stack](#-technology-stack)
+8. [Project Structure](#-professional-project-structure)
+9. [System Performance](#-system-performance)
+10. [Getting Started](#-getting-started)
+11. [API Documentation](#api-documentation)
+12. [Use Cases](#-use-cases)
+13. [Data Source](#-data-source)
+
+## �📊 Key Metrics
 - **Hit Rate**: 88.89% (exceeds 80% benchmark)
 - **Mean Reciprocal Rank**: 0.944 (near-perfect ranking)
 - **Average Response Time**: ~23 seconds
@@ -352,6 +367,17 @@ This API is designed for seamless integration into existing healthcare systems, 
 - Integration into existing healthcare information systems
 - Support for telehealth platforms and patient portals
 - Medical research and knowledge management applications
+
+## 🧭 Vector Space Visualization
+
+<img src="docs/assets/qdrant_vectors_visualization.png" alt="UMAP projection of medical document embeddings in Qdrant" width="800">
+
+**Qdrant Collection UMAP Projection**: This visualization shows a 2D UMAP projection of the 384-dimensional Sentence Transformer embeddings stored in the Qdrant vector database. Cluster formations illustrate semantic grouping of related medical question-answer pairs, enabling:
+- Efficient hybrid retrieval (semantic + keyword)
+- Better relevance fusion (supports RRF ranking)
+- Visual inspection of embedding distribution for quality assurance
+
+This aids in validating the coverage and structure of the medical knowledge base before and after ingestion.
 
 ## 📝 Data Source
 
