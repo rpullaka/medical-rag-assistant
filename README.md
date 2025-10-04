@@ -2,7 +2,7 @@
 
 A comprehensive **Retrieval-Augmented Generation (RAG)** system that provides accurate medical information using advanced AI and vector search technology. This project combines large language models with efficient retrieval mechanisms to answer medical questions and support healthcare decision-making.
 
-## � Table of Contents
+## 📚 Table of Contents
 1. [Key Metrics](#-key-metrics)
 2. [Problem Description](#-problem-description)
 3. [Solution Impact](#-solution-impact)
@@ -17,7 +17,7 @@ A comprehensive **Retrieval-Augmented Generation (RAG)** system that provides ac
 12. [Use Cases](#-use-cases)
 13. [Data Source](#-data-source)
 
-## �📊 Key Metrics
+## 📊 Key Metrics
 - **Hit Rate**: 88.89% (exceeds 80% benchmark)
 - **Mean Reciprocal Rank**: 0.944 (near-perfect ranking)
 - **Average Response Time**: ~23 seconds
@@ -48,9 +48,9 @@ This Medical RAG Assistant directly addresses these critical healthcare challeng
 ### 🎯 **Immediate Benefits:**
 - **🏥 Enhanced Decision-Making**: Achieves 88.89% accuracy in information retrieval vs. industry standard 60-70%
 - **⚡ Rapid Response**: Delivers comprehensive medical answers in ~23 seconds vs. traditional 2-3 minutes
-- **� Cost Efficiency**: Provides professional-grade medical information access at $0.003 per query
+- **💰 Cost Efficiency**: Provides professional-grade medical information access at $0.003 per query
 - **📚 Comprehensive Coverage**: 6,000+ curated medical documents ensuring broad knowledge base access
-- **� Universal Access**: Serves healthcare professionals, medical students, and patients with tailored interfaces
+- **🌐 Universal Access**: Serves healthcare professionals, medical students, and patients with tailored interfaces
 
 ## 🚀 Features Developed
 
@@ -137,7 +137,7 @@ medical-rag-assistant/
 ├── 📄 Dockerfile                          # Container definition
 ├── 📄 requirements.txt                    # Python dependencies
 ├── 📄 Makefile                           # Development automation
-├── � src/                               # 🐍 Source code (Python packages)
+├── 📁 src/                               # 🐍 Source code (Python packages)
 │   ├── 📄 __init__.py                     # Package initialization
 │   ├── 📁 api/                           # 🌐 API layer
 │   │   ├── 📄 __init__.py                 # API package init
@@ -146,15 +146,15 @@ medical-rag-assistant/
 │   ├── 📁 core/                          # 🧠 Business logic
 │   │   ├── 📄 __init__.py                 # Core package init
 │   │   └── 📄 rag.py                     # RAG implementation & logic
-│   ├── � database/                      # 🗄️ Data persistence
+│   ├── 📁 database/                      # 🗄️ Data persistence
 │   │   ├── 📄 __init__.py                 # Database package init
 │   │   ├── 📄 database.py                 # PostgreSQL operations
 │   │   ├── 📄 db.py                      # Database utilities
 │   │   └── 📄 vector_db.py                # Qdrant vector operations
-│   └── � services/                      # ☁️ External services
+│   └── 📁 services/                      # ☁️ External services
 │       ├── 📄 __init__.py                 # Services package init
 │       └── 📄 s3_service.py               # AWS S3 integration
-├── � config/                            # ⚙️ Configuration files
+├── 📁 config/                            # ⚙️ Configuration files
 │   ├── 📄 docker-compose.yaml             # Multi-service orchestration
 │   └── 📄 grafana_dashboard.json          # Grafana dashboard config
 ├── 📁 scripts/                           # 🔧 Utility scripts
