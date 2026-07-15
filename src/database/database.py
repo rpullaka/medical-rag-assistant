@@ -15,12 +15,8 @@ import psycopg2
 from psycopg2.extras import DictCursor, RealDictCursor
 
 # Import S3 service
-try:
-    from .s3_service import (is_s3_available, upload_conversation_to_s3,
-                             upload_feedback_to_s3)
-except ImportError:
-    from s3_service import (is_s3_available, upload_conversation_to_s3,
-                            upload_feedback_to_s3)
+from src.services.s3_service import (is_s3_available, upload_conversation_to_s3,
+                                      upload_feedback_to_s3)
 
 # Configuration
 TZ_INFO = os.getenv("TZ", "UTC")

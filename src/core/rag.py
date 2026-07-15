@@ -13,7 +13,6 @@ from dotenv import load_dotenv
 from openai import OpenAI
 
 import sys
-import os
 # Add the scripts directory to the path
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..', 'scripts'))
 from ingest import hybrid_query_rrf

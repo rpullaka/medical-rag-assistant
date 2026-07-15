@@ -1,0 +1,14 @@
+{
+  "include": ["src", "scripts"],
+  "exclude": [
+    "**/__pycache__",
+    ".venv",
+    "venv",
+    ".pytest_cache",
+    "data/qdrant_storage"
+  ],
+  "venvPath": "/Users/rpullaka/miniconda3/envs",
+  "venv": "mrag",
+  "pythonVersion": "3.11",
+  "typeCheckingMode": "basic"
+}
